@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haymanot Andarg | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Haymanot <span>Andarg</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home"          class="nav-link active">Home</a></li>
+        <li><a href="#about"         class="nav-link">About</a></li>
+        <li><a href="#experience"    class="nav-link">Experience</a></li>
+        <li><a href="#projects"      class="nav-link">Projects</a></li>
+        <li><a href="#skills"        class="nav-link">Skills</a></li>
+        <li><a href="#certifications"class="nav-link">Education</a></li>
+        <li><a href="#certificates"  class="nav-link">Certificates</a></li>
+        <li><a href="#contact"       class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+
+      <!-- Left column -->
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-icon">👋</span> Welcome to my portfolio
+        </div>
+
+        <h1 class="hero-name">
+          Haymanot <span class="accent">Andarg</span>
+        </h1>
+
+        <p class="hero-title">
+          Computer Engineering Student &amp; Full-Stack Developer
+        </p>
+
+        <p class="hero-desc">
+          Computer Engineering student at <strong>Bahir Dar University</strong>,
+          Ethiopia. Passionate about full-stack web development, network
+          infrastructure (Cisco &amp; Huawei), and building real-world
+          software solutions with clean, efficient code.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact"  class="btn btn-outline">Get In Touch</a>
+          <a href="portfolio.pdf" download class="btn btn-outline">
+            <span>⬇</span> Download CV
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Hayme19" target="_blank" class="social-icon" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/haymanot-andarg-9a9408391" target="_blank" class="social-icon" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:haymanotandarg19@gmail.com" class="social-icon" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+          <a href="tel:+251969153976" class="social-icon" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.24 1.02l-2.21 2.2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right column: photo + floating badges -->
+      <div class="hero-right">
+        <!-- Floating skill badges -->
+        <div class="float-badge badge-top-left">
+          <span class="badge-dot green"></span> Python
+        </div>
+        <div class="float-badge badge-top-right">
+          <span class="badge-dot blue"></span> React
+        </div>
+        <div class="float-badge badge-bottom-left">
+          <span class="badge-dot purple"></span> Spring Boot
+        </div>
+        <div class="float-badge badge-bottom-right">
+          <span class="badge-dot orange"></span> Cisco / Huawei
+        </div>
+
+        <!-- Profile photo circle -->
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-ring">
+            <div class="hero-photo-placeholder">
+              <img src="photo1.jpg" alt="Haymanot Andarg" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>About <span class="accent">Me</span></h2>
+        <p>Who I am and what drives me</p>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>
+            I'm <strong>Haymanot Andarg Wubale</strong>, a Computer Engineering
+            student at Bahir Dar University (BiT), passionate about the
+            intersection of <strong>network infrastructure</strong> and
+            <strong>software development</strong>.
+          </p>
+          <p>
+            I hold <strong>CCNA</strong> and <strong>SRWE</strong> certifications
+            and am proficient with Cisco IOS and Huawei VRP (eNSP). On the
+            software side, I build full-stack applications with React, Spring
+            Boot, TypeScript, and Python.
+          </p>
+          <p>
+            My goal is to design systems that are both technically sound and
+            genuinely useful — whether that's a scalable web portal serving
+            thousands of students or a resilient data-center network.
+          </p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certifications</span></div>
+            <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Coding</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Languages</span></div>
+          </div>
+        </div>
+        <div class="about-info-card">
+          <div class="info-row"><span class="info-label">📍 Location</span><span>Bahir Dar, Ethiopia</span></div>
+          <div class="info-row"><span class="info-label">🎓 University</span><span>Bahir Dar University (BiT)</span></div>
+          <div class="info-row"><span class="info-label">📧 Email</span><span>haymanotandarg19@gmail.com</span></div>
+          <div class="info-row"><span class="info-label">📱 Phone</span><span>+251 969153976</span></div>
+          <div class="info-row"><span class="info-label">🌐 Website</span><span>HaymanotAndarg.netlify.app</span></div>
+          <div class="info-row"><span class="info-label">🗣 Languages</span><span>Amharic (Native), English (Professional)</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATES & MEDIA ===== -->
+  <section class="section section-alt" id="certificates">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Certificates &amp; <span class="accent">Media</span></h2>
+        <p>My credentials and achievements</p>
+      </div>
+
+      <!-- Admin lock bar -->
+      <div class="admin-bar reveal" id="adminBar">
+        <div class="admin-locked" id="adminLocked">
+          <span class="admin-lock-icon">🔒</span>
+          <span class="admin-lock-text">Admin only — enter password to add or delete</span>
+          <input type="password" id="adminPass" class="admin-pass-input" placeholder="Password…" onkeydown="if(event.key==='Enter') adminLogin()" />
+          <button class="admin-login-btn" onclick="adminLogin()">Unlock</button>
+          <span class="admin-error" id="adminError"></span>
+        </div>
+        <div class="admin-unlocked" id="adminUnlocked" style="display:none">
+          <span class="admin-lock-icon">🔓</span>
+          <span class="admin-lock-text admin-active-text">Admin mode active</span>
+          <button class="media-add-btn" onclick="document.getElementById('certImageInput').click()">📄 Add Certificate</button>
+          <button class="media-add-btn media-add-btn--video" onclick="document.getElementById('certVideoInput').click()">🎬 Add Video</button>
+          <button class="admin-logout-btn" onclick="adminLogout()">Lock 🔒</button>
+          <input type="file" id="certImageInput" accept="image/*" multiple style="display:none" onchange="addMedia(this,'image')" />
+          <input type="file" id="certVideoInput" accept="video/*" multiple style="display:none" onchange="addMedia(this,'video')" />
+        </div>
+      </div>
+
+      <!-- Media Grid -->
+      <div class="media-grid reveal" id="mediaGrid">
+
+        <div class="media-card" id="media-0">
+          <div class="media-thumb">
+            <div class="media-placeholder cert-placeholder">
+              <div class="cert-logo"><span style="font-size:2rem;">🎓</span></div>
+              <div class="cert-body">
+                <p class="cert-issuer">Cisco Networking Academy</p>
+                <h4 class="cert-name">CCNA: Switching, Routing &amp; Wireless Essentials</h4>
+                <p class="cert-date">18 Jun 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="media-info">
+            <span class="media-label cert-label">🏅 Certificate</span>
+            <p class="media-title">CCNA: SRWE — Cisco</p>
+            <p class="media-caption" onclick="editCaption(this)">Exciting news! I've officially completed the CCNA: Switching, Routing, and Wireless Essentials program! This certification deepened my skills in network switching, routing protocols, and wireless technologies.</p>
+          </div>
+          <button class="media-delete-btn admin-only" onclick="deleteMedia('media-0')" title="Delete">✕</button>
+        </div>
+
+        <div class="media-card" id="media-1">
+          <div class="media-thumb">
+            <div class="media-placeholder cert-placeholder">
+              <div class="cert-logo"><span style="font-size:2rem;">🎓</span></div>
+              <div class="cert-body">
+                <p class="cert-issuer">Cisco Networking Academy</p>
+                <h4 class="cert-name">CCNA: Introduction to Networks</h4>
+                <p class="cert-date">22 Dec 2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="media-info">
+            <span class="media-label cert-label">🏅 Certificate</span>
+            <p class="media-title">CCNA: Introduction — Cisco</p>
+            <p class="media-caption" onclick="editCaption(this)">I'm excited to share that I have successfully completed the CCNA: Introduction to Networks certification! This journey deepened my knowledge in networking fundamentals, IP addressing, and Cisco IOS.</p>
+          </div>
+          <button class="media-delete-btn admin-only" onclick="deleteMedia('media-1')" title="Delete">✕</button>
+        </div>
+
+        <div class="media-card" id="media-2">
+          <div class="media-thumb">
+            <div class="media-placeholder cert-placeholder cert-placeholder--red">
+              <div class="cert-logo"><span style="font-size:2rem;">🎓</span></div>
+              <div class="cert-body">
+                <p class="cert-issuer">Huawei ICT Academy</p>
+                <h4 class="cert-name">Datacom-HCIA</h4>
+                <p class="cert-date">2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="media-info">
+            <span class="media-label cert-label">🏅 Certificate</span>
+            <p class="media-title">Huawei Datacom-HCIA</p>
+            <p class="media-caption" onclick="editCaption(this)">Proud to have earned the Huawei HCIA-Datacom certification! This program strengthened my understanding of Huawei VRP, data communication fundamentals, and enterprise network configuration using eNSP.</p>
+          </div>
+          <button class="media-delete-btn admin-only" onclick="deleteMedia('media-2')" title="Delete">✕</button>
+        </div>
+
+        <div class="media-card" id="media-3">
+          <div class="media-thumb">
+            <div class="media-placeholder cert-placeholder cert-placeholder--green">
+              <div class="cert-logo"><span style="font-size:2rem;">🎓</span></div>
+              <div class="cert-body">
+                <p class="cert-issuer">Simplilearn</p>
+                <h4 class="cert-name">Data Science Fundamentals</h4>
+                <p class="cert-date">2025</p>
+              </div>
+            </div>
+          </div>
+          <div class="media-info">
+            <span class="media-label cert-label">🏅 Certificate</span>
+            <p class="media-title">Data Science Fundamentals</p>
+            <p class="media-caption" onclick="editCaption(this)">Completed the Data Science Fundamentals certification covering Python for data analysis, Pandas, NumPy, and machine learning concepts using Scikit-learn. A great foundation for AI-driven development.</p>
+          </div>
+          <button class="media-delete-btn admin-only" onclick="deleteMedia('media-3')" title="Delete">✕</button>
+        </div>
+
+      </div>
+      <p class="media-hint">🔒 Only the admin can add or remove certificates and videos.</p>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Professional <span class="accent">Experience</span></h2>
+        <p>Where I've applied my skills</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3>Networking Configuration Engineer</h3>
+                <p class="tl-company">Bahir Dar University</p>
+              </div>
+              <span class="tl-date">Feb 2026 – Present</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Configured and managed the BDU Data Center Network using Cisco and Huawei equipment.</li>
+              <li>Set up VLANs, inter-VLAN routing, and OSPF/static routing.</li>
+              <li>Applied security measures: ACLs, port security, and SSH.</li>
+              <li>Tested connectivity and troubleshot issues for stable, secure network performance.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Cisco IOS</span><span class="tag">Huawei VRP</span>
+              <span class="tag">VLANs</span><span class="tag">OSPF</span><span class="tag">ACLs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3>Full-Stack Software Developer</h3>
+                <p class="tl-company">Bahir Dar University — Online/Digital Notice Board System</p>
+              </div>
+              <span class="tl-date">Oct 2025 – Feb 2026</span>
+            </div>
+            <ul class="tl-bullets">
+              <li>Developed a full-stack complaint management platform using Java Spring Boot, React, TypeScript, MySQL, and JPA.</li>
+              <li>Implemented JWT authentication and role-based access control (RBAC) across three user portals.</li>
+              <li>Designed relational database schemas and optimized persistence workflows for complaint and ticket management.</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Spring Boot</span><span class="tag">React</span>
+              <span class="tag">TypeScript</span><span class="tag">MySQL</span><span class="tag">JWT</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section section-skyblue" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Featured <span class="accent">Projects</span></h2>
+        <p>Things I've built</p>
+      </div>
+
+      <!-- Row 1: 3 cards -->
+      <div class="feat-grid reveal">
+
+        <div class="feat-card feat-card--blue">
+          <div class="feat-icon-wrap feat-icon-wrap--blue"><span class="feat-icon">🏛</span></div>
+          <h3 class="feat-title">BDU Online Notice Board System</h3>
+          <p class="feat-desc">A full-stack complaint management portal for Bahir Dar University students and staff to submit, track, and resolve complaints efficiently.</p>
+          <p class="feat-key-label">KEY FEATURES:</p>
+          <ul class="feat-features">
+            <li>Student &amp; staff complaint submission</li>
+            <li>Admin dashboard for complaint routing</li>
+            <li>Real-time status tracking &amp; updates</li>
+            <li>Role-based access (student, staff, admin)</li>
+          </ul>
+          <div class="feat-footer">
+            <div class="tag-row">
+              <span class="tag tag-blue">Spring Boot</span>
+              <span class="tag tag-blue">React</span>
+              <span class="tag tag-blue">MySQL</span>
+              <span class="tag tag-blue">JWT</span>
+            </div>
+            <a href="https://github.com/Hayme19" target="_blank" class="feat-gh-btn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+
+        <div class="feat-card feat-card--green">
+          <div class="feat-icon-wrap feat-icon-wrap--green"><span class="feat-icon">🏫</span></div>
+          <h3 class="feat-title">Ethio-Japan School Portal System</h3>
+          <p class="feat-desc">A scalable school management portal serving 4,000–8,000+ students with 4,000+ concurrent users, handling student records, grades, attendance, and parent-teacher communication.</p>
+          <p class="feat-key-label">KEY FEATURES:</p>
+          <ul class="feat-features">
+            <li>Student enrollment &amp; profile management</li>
+            <li>Grade &amp; attendance tracking</li>
+            <li>Teacher assignment &amp; schedule management</li>
+            <li>Parent portal for progress monitoring</li>
+          </ul>
+          <div class="feat-footer">
+            <div class="tag-row">
+              <span class="tag tag-green">React</span>
+              <span class="tag tag-green">Spring Boot</span>
+              <span class="tag tag-green">MySQL</span>
+              <span class="tag tag-green">JWT</span>
+            </div>
+            <span class="feat-status">In Progress</span>
+          </div>
+        </div>
+
+        <div class="feat-card feat-card--purple">
+          <div class="feat-icon-wrap feat-icon-wrap--purple"><span class="feat-icon">🏨</span></div>
+          <h3 class="feat-title">Hotel Management System</h3>
+          <p class="feat-desc">A full-stack hotel management application handling room bookings, guest records, check-in/out processes, and billing from a single unified platform.</p>
+          <p class="feat-key-label">KEY FEATURES:</p>
+          <ul class="feat-features">
+            <li>Room booking &amp; availability management</li>
+            <li>Guest check-in / check-out workflow</li>
+            <li>Billing &amp; invoice generation</li>
+            <li>Admin dashboard with reports</li>
+          </ul>
+          <div class="feat-footer">
+            <div class="tag-row">
+              <span class="tag tag-purple">HTML/CSS/JS</span>
+              <span class="tag tag-purple">PHP</span>
+              <span class="tag tag-purple">MySQL</span>
+            </div>
+            <a href="https://github.com/Hayme19" target="_blank" class="feat-gh-btn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Row 2: 1 card centered -->
+      <div class="feat-grid feat-grid--single reveal">
+
+        <div class="feat-card">
+          <div class="feat-icon-wrap">
+            <span class="feat-icon">🤖</span>
+          </div>
+          <h3 class="feat-title">Freshman Mini App — Telegram Bot</h3>
+          <p class="feat-desc">A chatbot helping first-year university students navigate campus life by answering questions about academic resources, schedules, and campus services quickly and reliably.</p>
+          <p class="feat-key-label">KEY FEATURES:</p>
+          <ul class="feat-features">
+            <li>Instant answers to FAQs about campus resources</li>
+            <li>Academic schedule lookup &amp; reminders</li>
+            <li>Conversational command flow design</li>
+            <li>16+ commits — actively maintained on GitHub</li>
+          </ul>
+          <div class="feat-footer">
+            <div class="tag-row">
+              <span class="tag tag-orange">Python</span>
+              <span class="tag tag-orange">Telegram Bot API</span>
+              <span class="tag tag-orange">Git / GitHub</span>
+            </div>
+            <a href="https://github.com/Hayme19/Freshman-bot" target="_blank" class="feat-gh-btn">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+              GitHub (16+ commits) ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-skyblue" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Skills &amp; <span class="accent">Technologies</span></h2>
+        <p>What I work with</p>
+      </div>
+
+      <!-- Row 1: 3 cards -->
+      <div class="feat-grid reveal">
+
+        <div class="feat-card">
+          <div class="feat-icon-wrap"><span class="feat-icon">💻</span></div>
+          <h3 class="feat-title">Languages</h3>
+          <p class="feat-desc">Core programming languages I use to build software solutions.</p>
+          <p class="feat-key-label">SKILLS:</p>
+          <ul class="feat-features">
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Java</li>
+            <li>HTML5 / CSS3</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div class="feat-card feat-card--highlight">
+          <div class="feat-icon-wrap"><span class="feat-icon">🌐</span></div>
+          <h3 class="feat-title">Web &amp; Backend</h3>
+          <p class="feat-desc">Frameworks and tools I use to build full-stack web applications.</p>
+          <p class="feat-key-label">SKILLS:</p>
+          <ul class="feat-features">
+            <li>React.js / React Flow</li>
+            <li>Tailwind CSS / Bootstrap</li>
+            <li>Node.js / Express</li>
+            <li>FastAPI</li>
+            <li>Spring Boot</li>
+            <li>REST API Design</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-icon-wrap"><span class="feat-icon">🔌</span></div>
+          <h3 class="feat-title">Networking</h3>
+          <p class="feat-desc">Network infrastructure skills using Cisco and Huawei equipment.</p>
+          <p class="feat-key-label">SKILLS:</p>
+          <ul class="feat-features">
+            <li>Cisco IOS</li>
+            <li>Huawei VRP (eNSP)</li>
+            <li>VLANs &amp; Inter-VLAN Routing</li>
+            <li>OSPF / Static Routing</li>
+            <li>ACLs &amp; Port Security</li>
+            <li>SSH Configuration</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Row 2: 2 cards centered -->
+      <div class="feat-grid feat-grid--two reveal">
+
+        <div class="feat-card">
+          <div class="feat-icon-wrap"><span class="feat-icon">🛠</span></div>
+          <h3 class="feat-title">Tools &amp; Databases</h3>
+          <p class="feat-desc">Development tools and database technologies I work with daily.</p>
+          <p class="feat-key-label">SKILLS:</p>
+          <ul class="feat-features">
+            <li>Git / GitHub</li>
+            <li>MySQL / MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Postman</li>
+            <li>VS Code / IntelliJ</li>
+            <li>Web3.js / Ethers.js</li>
+          </ul>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-icon-wrap"><span class="feat-icon">🤖</span></div>
+          <h3 class="feat-title">Data Science &amp; AI</h3>
+          <p class="feat-desc">Libraries and frameworks for data analysis and machine learning.</p>
+          <p class="feat-key-label">SKILLS:</p>
+          <ul class="feat-features">
+            <li>Pandas &amp; NumPy</li>
+            <li>Scikit-learn</li>
+            <li>NetworkX</li>
+            <li>Web3.js / Ethers.js</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS & EDUCATION ===== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Education &amp; <span class="accent">Certifications</span></h2>
+        <p>My academic background and credentials</p>
+      </div>
+      <div class="edu-cert-grid">
+
+        <!-- Education -->
+        <div class="reveal">
+          <h3 class="sub-heading">🎓 Education</h3>
+          <div class="edu-card">
+            <div class="edu-icon">🏛</div>
+            <div>
+              <h4>Bachelor of Science in Computer Engineering</h4>
+              <p class="edu-school">Bahir Dar University (BiT), Bahir Dar, Ethiopia</p>
+              <p class="edu-date">2021 – 2026</p>
+              <p class="edu-focus">Focus: Software Development, Web Technologies, Cisco &amp; Huawei Networking</p>
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-icon">🏫</div>
+            <div>
+              <h4>High School Diploma</h4>
+              <p class="edu-school">Ethio-Japan General Secondary and Preparatory School, Debre Markos</p>
+              <p class="edu-date">2018 – 2022</p>
+              <p class="edu-focus">Achieved a perfect academic transcript score.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="reveal">
+          <h3 class="sub-heading">🏅 Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-item">
+              <span class="cert-icon">✅</span>
+              <div>
+                <strong>CCNA: Switching, Routing &amp; Wireless Essentials</strong>
+                <p>Cisco</p>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-icon">✅</span>
+              <div>
+                <strong>CCNA: Introduction to Networking</strong>
+                <p>Cisco</p>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-icon">✅</span>
+              <div>
+                <strong>Huawei Datacom-HCIA</strong>
+                <p>Huawei</p>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-icon">✅</span>
+              <div>
+                <strong>Introduction to Computer Networking</strong>
+                <p>Simplilearn</p>
+              </div>
+            </div>
+            <div class="cert-item">
+              <span class="cert-icon">✅</span>
+              <div>
+                <strong>Data Science Fundamentals</strong>
+                <p>Online</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2>Get In <span class="accent">Touch</span></h2>
+        <p>Let's build something great together</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:haymanotandarg19@gmail.com">haymanotandarg19@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+251969153976">+251 969 153 976</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Location</strong>
+              <span>Bahir Dar, Ethiopia</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🐙</div>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/Hayme19" target="_blank">github.com/Hayme19</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💼</div>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="https://linkedin.com/in/haymanot-andarg-9a9408391" target="_blank">haymanot-andarg</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project collaboration…" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message ✉</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 <strong>Haymanot Andarg Wubale</strong>. All rights reserved.</p>
+      <p>Built with ❤ in Bahir Dar, Ethiopia</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // =============================================
+    // EMAILJS SETUP — follow steps below:
+    // 1. Go to https://www.emailjs.com and sign up free
+    // 2. Add Email Service → connect your Gmail → copy Service ID
+    // 3. Create Email Template → copy Template ID
+    // 4. Go to Account → copy your Public Key
+    // 5. Replace the three values below
+    // =============================================
+    const EMAILJS_PUBLIC_KEY  = 'wxGumAeOYMd9FBLqe';
+    const EMAILJS_SERVICE_ID  = 'service_v3jrczn';
+    const EMAILJS_TEMPLATE_ID = 'template_xf6x26v';
+
+    emailjs.init(EMAILJS_PUBLIC_KEY);
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const btn = this.querySelector('button[type="submit"]');
+      const original = btn.textContent;
+
+      // show loading state
+      btn.textContent = '⏳ Sending…';
+      btn.disabled = true;
+
+      const templateParams = {
+        from_name:    document.getElementById('name').value,
+        from_email:   document.getElementById('email').value,
+        subject:      document.getElementById('subject').value,
+        message:      document.getElementById('message').value,
+        to_email:     'haymanotandarg19@gmail.com',
+        reply_to:     document.getElementById('email').value
+      };
+
+      emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams)
+        .then(() => {
+          btn.textContent = '✅ Message Sent!';
+          btn.style.background = '#16a34a';
+          this.reset();
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.style.background = '';
+            btn.disabled = false;
+          }, 3000);
+        })
+        .catch((err) => {
+          console.error('EmailJS error:', err);
+          const errMsg = err && err.text ? err.text : JSON.stringify(err);
+          btn.textContent = '❌ Error: ' + errMsg;
+          btn.style.background = '#dc2626';
+          btn.style.fontSize = '0.75rem';
+          btn.disabled = false;
+          setTimeout(() => {
+            btn.textContent = original;
+            btn.style.background = '';
+            btn.style.fontSize = '';
+          }, 6000);
+        });
+    });
+  </script>
+</body>
+</html>
